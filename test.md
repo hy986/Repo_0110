@@ -7,7 +7,7 @@ recommendations: false
 ---
 # What is .NET? Introduction and overview
 
-.NET is a free(#https://dotnet.microsoft.com/download/), cross-platform, [open source developer platform](https://github.com/dotnet/core) for building many kinds of applications. .NET is built on a [high-performance runtime](https://devblogs.microsoft.com/dotnet/category/performance/) that is used in production by many [high-scale apps](https://devblogs.microsoft.com/dotnet/category/developer-stories/).
+.NET is a free(##https://dotnet.microsoft.com/download/), cross-platform, [open source developer platform](https://github.com/dotnet/core) for building many kinds of applications. .NET is built on a [high-performance runtime](https://devblogs.microsoft.com/dotnet/category/performance/) that is used in production by many [high-scale apps](https://devblogs.microsoft.com/dotnet/category/developer-stories/).
 
 **Cloud apps**
 
