@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-28T01:58:30.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="mdiK6HGcL9OJoJiIgVwz" version="22.1.12" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-12-28T02:19:27.384Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="4uYUxd1KOJ1ymMddLFBT" version="22.1.12" type="github" pages="4">
   <diagram name="Page-1" id="2AoE8no1jIqksjWk7j5P">
     <mxGraphModel dx="1386" dy="751" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -205,14 +205,17 @@
         <mxCell id="eoYExE6csT1cnhEWS7wk-1" value="Get CI Article Info" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;container=0;" vertex="1" parent="1">
           <mxGeometry x="-19" y="578" width="237" height="204" as="geometry" />
         </mxCell>
-        <mxCell id="eoYExE6csT1cnhEWS7wk-2" value="Get CI Article Title&lt;br&gt;By&lt;br&gt;CI ID / Guid / KB Number / Url" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;" vertex="1" parent="eoYExE6csT1cnhEWS7wk-1">
-          <mxGeometry x="17" y="58" width="178" height="60" as="geometry" />
+        <mxCell id="eoYExE6csT1cnhEWS7wk-2" value="Get CI Article Version&lt;br&gt;By&lt;br&gt;CI ID / Guid / KB Number / Url" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;" vertex="1" parent="eoYExE6csT1cnhEWS7wk-1">
+          <mxGeometry x="17" y="104" width="178" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eoYExE6csT1cnhEWS7wk-6" value="Get CI Article Content" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#dae8fc;container=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="578" width="204" height="204" as="geometry" />
+          <mxGeometry x="240" y="578" width="228" height="204" as="geometry" />
         </mxCell>
-        <mxCell id="eoYExE6csT1cnhEWS7wk-8" value="Get CI Article Content&lt;br&gt;By&lt;br&gt;CI ID / Guid / KB Number/ Url" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;" vertex="1" parent="eoYExE6csT1cnhEWS7wk-6">
-          <mxGeometry x="24" y="58" width="169" height="60" as="geometry" />
+        <mxCell id="eoYExE6csT1cnhEWS7wk-8" value="Get CI Article Title&lt;br&gt;By&lt;br&gt;CI ID / Guid / KB Number/ Url" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;" vertex="1" parent="eoYExE6csT1cnhEWS7wk-6">
+          <mxGeometry x="24" y="36" width="169" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eoYExE6csT1cnhEWS7wk-10" value="Get CI Article Content&lt;br&gt;By&lt;br&gt;CI ID / Guid / KB Number/ Url" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;" vertex="1" parent="eoYExE6csT1cnhEWS7wk-6">
+          <mxGeometry x="24" y="109" width="169" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
