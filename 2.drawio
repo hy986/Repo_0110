@@ -599,10 +599,10 @@
           <mxGeometry x="550" y="23" width="200" height="680" as="geometry" />
         </mxCell>
         <mxCell id="XyP1v8mS3lCBMKFsngKJ-7" value="Preview Branch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="FCKQJgM8cLc4B8TQGx6g-3">
-          <mxGeometry x="49" y="298" width="120" height="60" as="geometry" />
+          <mxGeometry x="49" y="297" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XyP1v8mS3lCBMKFsngKJ-10" value="Live Branch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="FCKQJgM8cLc4B8TQGx6g-3">
-          <mxGeometry x="49" y="378" width="120" height="60" as="geometry" />
+          <mxGeometry x="49" y="377" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y4JPMKc6mv0xH0c-AJWr-5" value="Rendering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="FCKQJgM8cLc4B8TQGx6g-3">
           <mxGeometry x="49" y="457" width="120" height="60" as="geometry" />
