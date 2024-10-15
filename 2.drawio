@@ -930,7 +930,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="evE1l2Tyb3ZE5_olek59-1" value="CMS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="40" width="530" height="830" as="geometry" />
+          <mxGeometry x="-110" y="40" width="530" height="840" as="geometry" />
         </mxCell>
         <mxCell id="evE1l2Tyb3ZE5_olek59-6" value="Archive Article" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="evE1l2Tyb3ZE5_olek59-1">
           <mxGeometry x="58" y="60" width="120" height="60" as="geometry" />
@@ -967,6 +967,9 @@
         <mxCell id="evE1l2Tyb3ZE5_olek59-34" value="IsContainNavi" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="evE1l2Tyb3ZE5_olek59-1">
           <mxGeometry x="358" y="290" width="124" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="evE1l2Tyb3ZE5_olek59-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="evE1l2Tyb3ZE5_olek59-1" source="evE1l2Tyb3ZE5_olek59-38" target="evE1l2Tyb3ZE5_olek59-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="evE1l2Tyb3ZE5_olek59-38" value="IsImageInOtherArticles" style="rhombus;whiteSpace=wrap;html=1;perimeter=ellipsePerimeter;" vertex="1" parent="evE1l2Tyb3ZE5_olek59-1">
           <mxGeometry x="30" y="542" width="140" height="100" as="geometry" />
         </mxCell>
@@ -982,8 +985,14 @@
         <mxCell id="evE1l2Tyb3ZE5_olek59-62" value="SearchInOtherArticles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="evE1l2Tyb3ZE5_olek59-1">
           <mxGeometry x="190" y="430" width="150" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="evE1l2Tyb3ZE5_olek59-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="evE1l2Tyb3ZE5_olek59-1" source="evE1l2Tyb3ZE5_olek59-64" target="evE1l2Tyb3ZE5_olek59-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="evE1l2Tyb3ZE5_olek59-64" value="IsTokenInOtherArticles" style="rhombus;whiteSpace=wrap;html=1;perimeter=ellipsePerimeter;" vertex="1" parent="evE1l2Tyb3ZE5_olek59-1">
           <mxGeometry x="195" y="542" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="evE1l2Tyb3ZE5_olek59-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="evE1l2Tyb3ZE5_olek59-1" source="evE1l2Tyb3ZE5_olek59-65" target="evE1l2Tyb3ZE5_olek59-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="evE1l2Tyb3ZE5_olek59-65" value="IsNaviInOtherArticles" style="rhombus;whiteSpace=wrap;html=1;perimeter=ellipsePerimeter;" vertex="1" parent="evE1l2Tyb3ZE5_olek59-1">
           <mxGeometry x="358" y="542" width="140" height="100" as="geometry" />
@@ -992,13 +1001,13 @@
           <mxGeometry x="215" y="760" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="evE1l2Tyb3ZE5_olek59-2" value="Service Bus Topic" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="40" width="200" height="680" as="geometry" />
+          <mxGeometry x="420" y="40" width="200" height="840" as="geometry" />
         </mxCell>
         <mxCell id="evE1l2Tyb3ZE5_olek59-8" value="Article Queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="evE1l2Tyb3ZE5_olek59-2">
           <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="evE1l2Tyb3ZE5_olek59-3" value="C3" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="40" width="200" height="930" as="geometry" />
+          <mxGeometry x="620" y="40" width="200" height="840" as="geometry" />
         </mxCell>
         <mxCell id="evE1l2Tyb3ZE5_olek59-17" value="Archive Article" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="evE1l2Tyb3ZE5_olek59-3">
           <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
@@ -1013,7 +1022,7 @@
           <mxGeometry x="40" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="evE1l2Tyb3ZE5_olek59-4" value="Thanos" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="40" width="200" height="680" as="geometry" />
+          <mxGeometry x="-310" y="40" width="200" height="840" as="geometry" />
         </mxCell>
         <mxCell id="evE1l2Tyb3ZE5_olek59-5" value="Request Archive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="evE1l2Tyb3ZE5_olek59-4">
           <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
