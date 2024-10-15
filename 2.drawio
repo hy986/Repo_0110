@@ -1295,16 +1295,16 @@
             <mxPoint x="339" y="328" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dFcjeIXU5mSN3gIyQraM-23" value="Archive Images/Navi/Token" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="dFcjeIXU5mSN3gIyQraM-8">
+        <mxCell id="dFcjeIXU5mSN3gIyQraM-23" value="Archive Images/Navi/Token" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="340" y="408" as="sourcePoint" />
-            <mxPoint x="420" y="408" as="targetPoint" />
+            <mxPoint x="337" y="408" as="sourcePoint" />
+            <mxPoint x="558.5" y="408" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dFcjeIXU5mSN3gIyQraM-25" value="Return Archive Result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="dFcjeIXU5mSN3gIyQraM-22">
+        <mxCell id="dFcjeIXU5mSN3gIyQraM-25" value="Return Archive Result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="0.0023" relative="1" as="geometry">
-            <mxPoint x="680" y="434" as="sourcePoint" />
-            <mxPoint x="337" y="434" as="targetPoint" />
+            <mxPoint x="552" y="434" as="sourcePoint" />
+            <mxPoint x="332" y="434" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
