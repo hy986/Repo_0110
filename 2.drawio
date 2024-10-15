@@ -1047,8 +1047,9 @@
         <mxCell id="evE1l2Tyb3ZE5_olek59-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="evE1l2Tyb3ZE5_olek59-1" source="evE1l2Tyb3ZE5_olek59-38" target="evE1l2Tyb3ZE5_olek59-51">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="10" y="592" />
+              <mxPoint x="10" y="550" />
               <mxPoint x="10" y="810" />
+              <mxPoint x="185" y="810" />
             </Array>
           </mxGeometry>
         </mxCell>
