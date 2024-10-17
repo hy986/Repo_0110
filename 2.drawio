@@ -1084,9 +1084,6 @@
         <mxCell id="evE1l2Tyb3ZE5_olek59-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="evE1l2Tyb3ZE5_olek59-144" target="evE1l2Tyb3ZE5_olek59-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u3W1SQAGYqhZJYAquScD-4" value="&lt;div&gt;&lt;b&gt;green&lt;/b&gt;: completed&lt;/div&gt;&lt;div&gt;&lt;b&gt;grey&lt;/b&gt;: uncompleted&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="838" y="100" width="167" height="124" as="geometry" />
-        </mxCell>
         <mxCell id="418SQih2XLUc1KaUQrYo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="418SQih2XLUc1KaUQrYo-5" target="evE1l2Tyb3ZE5_olek59-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1117,6 +1114,12 @@
           <mxGeometry x="-0.1099" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="418SQih2XLUc1KaUQrYo-42" value="Implement" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="847" y="99" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="418SQih2XLUc1KaUQrYo-43" value="Plan" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="847" y="147" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
