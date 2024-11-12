@@ -1318,6 +1318,11 @@
             <mxPoint x="33" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="1b-xUiw3RLGAd1ue7K0Z-10" value="&lt;span style=&quot;overflow-wrap: break-word; box-sizing: border-box; list-style: inherit; color: rgb(51, 51, 51); text-align: left; white-space: pre-wrap;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Dependency&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="89Ei1sLfXe7dZOMdd8RN-35">
+          <mxGeometry x="0.2933" y="1" relative="1" as="geometry">
+            <mxPoint x="-139" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="89Ei1sLfXe7dZOMdd8RN-30" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ICMTicketFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ CreateTicket&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TEntity&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(&lt;/span&gt;&amp;lt;&lt;span style=&quot;background-color: initial;&quot;&gt;P&lt;/span&gt;latformType&amp;gt;&lt;span style=&quot;background-color: initial;&quot;&gt;):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-title&quot;&gt;ITicket&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-title&quot;&gt;TEntity&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ CreateComment&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TEntity&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(&amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;P&lt;/span&gt;latformType&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-title&quot;&gt;IComment&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-title&quot;&gt;TEntity&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-538" y="-29" width="369" height="127" as="geometry" />
         </mxCell>
@@ -1332,7 +1337,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="89Ei1sLfXe7dZOMdd8RN-44" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IComment&amp;lt;T, TEntity&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-function&quot;&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;Add&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Comment&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-function&quot;&gt;(&lt;span class=&quot;hljs-params&quot;&gt;TEntity&lt;/span&gt;): &amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TEntity&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-function&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;Update&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Comment&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-function&quot;&gt;(&lt;span class=&quot;hljs-params&quot;&gt;TEntity&lt;/span&gt;): &amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TEntity&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-function&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;Delete&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Comment&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-function&quot;&gt;(TEntity):&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-built_in&quot;&gt;bool&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-built_in&quot;&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-function&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;Get&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Comment&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-function&quot;&gt;(&lt;span class=&quot;hljs-params&quot;&gt;TEntity&lt;/span&gt;): &amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TEntity&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-833.5" y="369" width="400" height="137" as="geometry" />
+          <mxGeometry x="-833.5" y="382" width="400" height="137" as="geometry" />
         </mxCell>
         <mxCell id="1b-xUiw3RLGAd1ue7K0Z-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;endSize=12;" edge="1" parent="1" source="1b-xUiw3RLGAd1ue7K0Z-1" target="idL6_QnSlzQm8lSRPzPi-2">
           <mxGeometry relative="1" as="geometry">
@@ -1363,8 +1368,8 @@
         <mxCell id="1b-xUiw3RLGAd1ue7K0Z-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=12;" edge="1" parent="1" source="1b-xUiw3RLGAd1ue7K0Z-5" target="89Ei1sLfXe7dZOMdd8RN-44">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="285" y="537" />
-              <mxPoint x="-633" y="537" />
+              <mxPoint x="285" y="549" />
+              <mxPoint x="-633" y="549" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1372,7 +1377,19 @@
           <mxGeometry x="152" y="351" width="266" height="131" as="geometry" />
         </mxCell>
         <mxCell id="1b-xUiw3RLGAd1ue7K0Z-8" value="&lt;span style=&quot;color: rgb(51, 51, 51); text-align: left; white-space: pre-wrap;&quot;&gt;Generalization&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-285" y="526" as="geometry" />
+          <mxGeometry x="-285" y="523" as="geometry">
+            <mxPoint y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1b-xUiw3RLGAd1ue7K0Z-11" value="&lt;span style=&quot;color: rgb(51, 51, 51); text-align: left; white-space: pre-wrap;&quot;&gt;Generalization&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-643" y="-69" as="geometry">
+            <mxPoint y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1b-xUiw3RLGAd1ue7K0Z-12" value="&lt;span style=&quot;color: rgb(51, 51, 51); text-align: left; white-space: pre-wrap;&quot;&gt;Generalization&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-455" y="-69" as="geometry">
+            <mxPoint y="17" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
