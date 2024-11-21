@@ -1618,19 +1618,13 @@
           <mxGeometry x="44" y="116" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V1c_h0VShN5VuAC0KzTb-8" value="KM360" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="79" y="560" width="200" height="200" as="geometry" />
+          <mxGeometry x="488" y="262" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="V1c_h0VShN5VuAC0KzTb-9" value="Logic App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V1c_h0VShN5VuAC0KzTb-8">
           <mxGeometry x="40" y="37" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V1c_h0VShN5VuAC0KzTb-10" value="Key Vault" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V1c_h0VShN5VuAC0KzTb-8">
           <mxGeometry x="40" y="112" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="V1c_h0VShN5VuAC0KzTb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V1c_h0VShN5VuAC0KzTb-11" target="V1c_h0VShN5VuAC0KzTb-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V1c_h0VShN5VuAC0KzTb-15" value="post url" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="672" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
