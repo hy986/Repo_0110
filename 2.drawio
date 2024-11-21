@@ -1617,7 +1617,7 @@
         <mxCell id="V1c_h0VShN5VuAC0KzTb-13" value="Key Vault" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V1c_h0VShN5VuAC0KzTb-6">
           <mxGeometry x="44" y="116" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V1c_h0VShN5VuAC0KzTb-8" value="Common" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="V1c_h0VShN5VuAC0KzTb-8" value="KM360" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="79" y="560" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="V1c_h0VShN5VuAC0KzTb-9" value="Logic App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="V1c_h0VShN5VuAC0KzTb-8">
