@@ -1711,7 +1711,7 @@
         <mxCell id="I-jgUNw7krDRGAdkMPJ--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;endSize=12;" edge="1" parent="1" source="hYn9xpt5zGRN9GKBnAmk-4" target="hYn9xpt5zGRN9GKBnAmk-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hYn9xpt5zGRN9GKBnAmk-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MailFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _logicAppMailOptions: LogicAppMailOptions&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getMailClient(plateform: string): IMailClient&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="hYn9xpt5zGRN9GKBnAmk-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MailFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _logicAppMailOptions: LogicAppMailOptions&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ GetMailClient(plateform: string): IMailClient&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-527" y="5" width="396" height="86" as="geometry" />
         </mxCell>
         <mxCell id="10bRlfyOAsNdhq2DKaID-2" value="Notification" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1775,7 +1775,7 @@
           <mxGeometry x="-1142" y="-134" width="358" height="90" as="geometry" />
         </mxCell>
         <mxCell id="I-jgUNw7krDRGAdkMPJ--3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Notification&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;Option&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;OptionPropertyPrefix: string&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-527" y="-183" width="358" height="82" as="geometry" />
+          <mxGeometry x="239" y="-261" width="358" height="82" as="geometry" />
         </mxCell>
         <mxCell id="I-jgUNw7krDRGAdkMPJ--25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;LogicAppMailOptions&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ plateform: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ LogicAppMail: Dictionary&amp;lt;string, Dictionary&amp;lt;string, object&amp;gt;&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-81" y="-1.5" width="341" height="99" as="geometry" />
@@ -1785,6 +1785,16 @@
             <Array as="points">
               <mxPoint x="-131" y="42" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fj5wSOcq9tfE1rv8OvIz-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;IMailFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ GetMailClient(plateform: string): IMailClient&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-527" y="-138" width="396" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="fj5wSOcq9tfE1rv8OvIz-3" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Realize&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;endSize=12;" edge="1" parent="1" source="hYn9xpt5zGRN9GKBnAmk-4" target="fj5wSOcq9tfE1rv8OvIz-2">
+          <mxGeometry x="-0.25" y="-26" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-329" y="5" as="sourcePoint" />
+            <mxPoint x="-329" y="-45" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
