@@ -1912,7 +1912,7 @@
         <mxCell id="Dbc7nFy5urO7KskudW05-3" value="Create Article" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Dbc7nFy5urO7KskudW05-1">
           <mxGeometry x="30" y="361" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Dbc7nFy5urO7KskudW05-4" value="Storage HTML/Meta Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Dbc7nFy5urO7KskudW05-1">
+        <mxCell id="Dbc7nFy5urO7KskudW05-4" value="Storage HTML/Meta/Token Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Dbc7nFy5urO7KskudW05-1">
           <mxGeometry x="30" y="425" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Dbc7nFy5urO7KskudW05-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Dbc7nFy5urO7KskudW05-1" source="Dbc7nFy5urO7KskudW05-6" target="Dbc7nFy5urO7KskudW05-2">
