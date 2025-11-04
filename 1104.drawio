@@ -1,9 +1,21 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
   <diagram name="第 1 页" id="oYh5ZC57XlpVGLNwDp4G">
-    <mxGraphModel dx="1657" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1818" dy="820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="x5pJzGJdKtsmi0o56awz-2" value="中台" style="swimlane;whiteSpace=wrap;html=1;startSize=23;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="-133" y="179" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="x5pJzGJdKtsmi0o56awz-3" value="网站" style="swimlane;whiteSpace=wrap;html=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="67" y="179" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="x5pJzGJdKtsmi0o56awz-4" value="IMS" style="swimlane;whiteSpace=wrap;html=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="267" y="179" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="x5pJzGJdKtsmi0o56awz-5" value="电子名片" style="swimlane;whiteSpace=wrap;html=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="467" y="179" width="200" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
