@@ -143,7 +143,7 @@
         </mxCell>
         <mxCell id="XH5oUqXnI256S1ExxVO0-9" value="请求同步拉取数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="XH5oUqXnI256S1ExxVO0-8" vertex="1" connectable="0">
           <mxGeometry x="0.3165" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="20" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XH5oUqXnI256S1ExxVO0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;" parent="1" source="XH5oUqXnI256S1ExxVO0-4" target="XH5oUqXnI256S1ExxVO0-7" edge="1">
