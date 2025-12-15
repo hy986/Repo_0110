@@ -202,8 +202,8 @@
         <mxCell id="Otei6qqCoLU4enz3dqo9-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1.5;" edge="1" parent="Otei6qqCoLU4enz3dqo9-3" source="Otei6qqCoLU4enz3dqo9-16" target="Otei6qqCoLU4enz3dqo9-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="140" y="143" />
-              <mxPoint x="140" y="347" />
+              <mxPoint x="149" y="143" />
+              <mxPoint x="149" y="347" />
               <mxPoint x="747" y="347" />
             </Array>
           </mxGeometry>
