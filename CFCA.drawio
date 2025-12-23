@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.7">
   <diagram name="第 1 页" id="9ltAlG1NFXlg749O9_f8">
-    <mxGraphModel dx="1818" dy="780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1818" dy="814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -229,7 +229,7 @@
         <mxCell id="8bUN5_SP1lWivCpNgLxp-50" parent="8bUN5_SP1lWivCpNgLxp-48" style="rounded=1;whiteSpace=wrap;html=1;" value="盖章" vertex="1">
           <mxGeometry height="125" width="120" x="14" y="421" as="geometry" />
         </mxCell>
-        <mxCell id="8bUN5_SP1lWivCpNgLxp-122" parent="8bUN5_SP1lWivCpNgLxp-48" style="rounded=1;whiteSpace=wrap;html=1;" value="客户名称，客户电话，合同签署顺序" vertex="1">
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-122" parent="8bUN5_SP1lWivCpNgLxp-48" style="rounded=1;whiteSpace=wrap;html=1;" value="客户名称，客户电话" vertex="1">
           <mxGeometry height="35" width="127" x="132" y="101" as="geometry" />
         </mxCell>
         <mxCell id="8bUN5_SP1lWivCpNgLxp-51" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-49">
