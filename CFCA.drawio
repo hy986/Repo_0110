@@ -1,9 +1,666 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.7">
   <diagram name="第 1 页" id="9ltAlG1NFXlg749O9_f8">
-    <mxGraphModel dx="1418" dy="780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1818" dy="780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="律所" vertex="1">
+          <mxGeometry height="508" width="153" x="-137" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-5" parent="8bUN5_SP1lWivCpNgLxp-1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="律师" vertex="1">
+          <mxGeometry height="60" width="30" x="23" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-11" parent="8bUN5_SP1lWivCpNgLxp-1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="盖章老师" vertex="1">
+          <mxGeometry height="60" width="30" x="26" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-33" parent="8bUN5_SP1lWivCpNgLxp-1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="20" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="IMS系统" vertex="1">
+          <mxGeometry height="508" width="383" x="16" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-8" parent="8bUN5_SP1lWivCpNgLxp-2" style="rounded=1;whiteSpace=wrap;html=1;" value="所函生成" vertex="1">
+          <mxGeometry height="40" width="120" x="21" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-12" parent="8bUN5_SP1lWivCpNgLxp-2" style="rounded=1;whiteSpace=wrap;html=1;" value="盖章" vertex="1">
+          <mxGeometry height="60" width="120" x="14" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#f8cecc;strokeColor=#b85450;" value="个人客户" vertex="1">
+          <mxGeometry height="733" width="170" x="607" y="802" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-129" parent="8bUN5_SP1lWivCpNgLxp-3" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="51" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-4" parent="1" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#e1d5e7;strokeColor=#9673a6;" value="企业客户" vertex="1">
+          <mxGeometry height="508" width="303" x="621" y="1656" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-9" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-10" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1. 创建所函" vertex="1">
+          <mxGeometry relative="1" x="-0.3799" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-13" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="8bUN5_SP1lWivCpNgLxp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-14" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. 待盖章文书" vertex="1">
+          <mxGeometry relative="1" x="-0.4612" y="-1" as="geometry">
+            <mxPoint x="22" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-15" parent="1" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="CFCA" vertex="1">
+          <mxGeometry height="508" width="213" x="399" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-16" parent="8bUN5_SP1lWivCpNgLxp-15" style="rounded=1;whiteSpace=wrap;html=1;" value="3203&amp;nbsp;上传合同签署" vertex="1">
+          <mxGeometry height="60" width="120" x="47.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-18" parent="8bUN5_SP1lWivCpNgLxp-15" style="rounded=1;whiteSpace=wrap;html=1;" value="3008&amp;nbsp;用户三要素信息查询" vertex="1">
+          <mxGeometry height="57" width="120" x="47.5" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-22" parent="8bUN5_SP1lWivCpNgLxp-15" style="rounded=1;whiteSpace=wrap;html=1;" value="3912&amp;nbsp;单一合同H5签署" vertex="1">
+          <mxGeometry height="60" width="120" x="43" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-34" parent="8bUN5_SP1lWivCpNgLxp-15" style="rounded=1;whiteSpace=wrap;html=1;" value="企业开户" vertex="1">
+          <mxGeometry height="40" width="120" x="47" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-39" parent="8bUN5_SP1lWivCpNgLxp-15" style="rounded=1;whiteSpace=wrap;html=1;" value="downloading 合同下载" vertex="1">
+          <mxGeometry height="60" width="120" x="47" y="389" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-17" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="409" />
+              <mxPoint x="384" y="409" />
+              <mxPoint x="384" y="389" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-21" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4. 创建合同" vertex="1">
+          <mxGeometry relative="1" x="-0.4765" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-19" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="364" />
+              <mxPoint x="337" y="364" />
+              <mxPoint x="337" y="289" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-20" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. 根据三要素获取用户id，认证方式，开户时间" vertex="1">
+          <mxGeometry relative="1" x="-0.4647" y="2" as="geometry">
+            <mxPoint x="74" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-23" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="471" />
+              <mxPoint x="330" y="459" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-24" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. 发送短链接" vertex="1">
+          <mxGeometry relative="1" x="-0.1989" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-25" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" target="8bUN5_SP1lWivCpNgLxp-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="472" y="522" />
+              <mxPoint x="-81" y="522" />
+            </Array>
+            <mxPoint x="445" y="457" as="sourcePoint" />
+            <mxPoint x="-59" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-26" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6. 短信通知盖章" vertex="1">
+          <mxGeometry relative="1" x="0.1869" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-27" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-111" y="545" />
+              <mxPoint x="502" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-28" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7. 盖章" vertex="1">
+          <mxGeometry relative="1" x="-0.2834" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-29" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="8bUN5_SP1lWivCpNgLxp-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="489" />
+              <mxPoint x="204" y="486" />
+            </Array>
+            <mxPoint x="469" y="512" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-30" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8. 盖章完成" vertex="1">
+          <mxGeometry relative="1" x="0.3817" y="-4" as="geometry">
+            <mxPoint x="28" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-31" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.675;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" target="8bUN5_SP1lWivCpNgLxp-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="373" y="304" />
+              <mxPoint x="373" y="391" />
+              <mxPoint x="111" y="391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-32" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3.2 获取用户id" vertex="1">
+          <mxGeometry relative="1" x="0.2365" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-35" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-36" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="提前准备：在安心签上开户" vertex="1">
+          <mxGeometry relative="1" x="-0.4078" y="-2" as="geometry">
+            <mxPoint x="40" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-37" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="411" y="404" />
+              <mxPoint x="411" y="427" />
+              <mxPoint x="150" y="427" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-38" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4.2 获取合同id" vertex="1">
+          <mxGeometry relative="1" x="0.4183" y="-2" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-40" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-43" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8.2 获取盖完章的合同" vertex="1">
+          <mxGeometry relative="1" x="-0.0877" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-41" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-42" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8. 根据合同id" vertex="1">
+          <mxGeometry relative="1" x="0.0684" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-44" parent="1" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="律所" vertex="1">
+          <mxGeometry height="729" width="153" x="-142" y="802" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-45" parent="8bUN5_SP1lWivCpNgLxp-44" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="律师" vertex="1">
+          <mxGeometry height="60" width="30" x="14.5" y="97" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-46" parent="8bUN5_SP1lWivCpNgLxp-44" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="盖章老师" vertex="1">
+          <mxGeometry height="60" width="30" x="26" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-47" parent="8bUN5_SP1lWivCpNgLxp-44" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="36" width="19" x="20" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-48" parent="1" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="IMS系统" vertex="1">
+          <mxGeometry height="728" width="383" x="11" y="802" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-124" edge="1" parent="8bUN5_SP1lWivCpNgLxp-48" source="8bUN5_SP1lWivCpNgLxp-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="161" y="137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-49" parent="8bUN5_SP1lWivCpNgLxp-48" style="rounded=1;whiteSpace=wrap;html=1;" value="委托合同" vertex="1">
+          <mxGeometry height="33" width="75" x="22" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-50" parent="8bUN5_SP1lWivCpNgLxp-48" style="rounded=1;whiteSpace=wrap;html=1;" value="盖章" vertex="1">
+          <mxGeometry height="125" width="120" x="14" y="421" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-122" parent="8bUN5_SP1lWivCpNgLxp-48" style="rounded=1;whiteSpace=wrap;html=1;" value="客户名称，客户电话，合同签署顺序" vertex="1">
+          <mxGeometry height="35" width="127" x="132" y="101" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-51" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-52" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1. 创建所函" vertex="1">
+          <mxGeometry relative="1" x="-0.3799" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-53" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="8bUN5_SP1lWivCpNgLxp-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-54" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. 待盖章文书" vertex="1">
+          <mxGeometry relative="1" x="-0.4612" y="-1" as="geometry">
+            <mxPoint x="22" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-55" parent="1" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="CFCA" vertex="1">
+          <mxGeometry height="730" width="213" x="394" y="802" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-56" parent="8bUN5_SP1lWivCpNgLxp-55" style="rounded=1;whiteSpace=wrap;html=1;" value="3203&amp;nbsp;上传合同签署" vertex="1">
+          <mxGeometry height="60" width="120" x="47.5" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-57" parent="8bUN5_SP1lWivCpNgLxp-55" style="rounded=1;whiteSpace=wrap;html=1;" value="3008&amp;nbsp;用户三要素信息查询" vertex="1">
+          <mxGeometry height="57" width="120" x="43" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-58" parent="8bUN5_SP1lWivCpNgLxp-55" style="rounded=1;whiteSpace=wrap;html=1;" value="3912&amp;nbsp;单一合同H5签署" vertex="1">
+          <mxGeometry height="60" width="155" x="30" y="489" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-59" parent="8bUN5_SP1lWivCpNgLxp-55" style="rounded=1;whiteSpace=wrap;html=1;" value="企业开户" vertex="1">
+          <mxGeometry height="25" width="120" x="47" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-60" parent="8bUN5_SP1lWivCpNgLxp-55" style="rounded=1;whiteSpace=wrap;html=1;" value="downloading 合同下载" vertex="1">
+          <mxGeometry height="60" width="120" x="47" y="613" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-128" parent="8bUN5_SP1lWivCpNgLxp-55" style="rounded=1;whiteSpace=wrap;html=1;" value="个人开户" vertex="1">
+          <mxGeometry height="33" width="120" x="38" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-132" parent="8bUN5_SP1lWivCpNgLxp-55" style="rounded=1;whiteSpace=wrap;html=1;" value="认证中心绑定平台" vertex="1">
+          <mxGeometry height="31" width="120" x="38" y="213" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-61" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="115" y="1195" />
+              <mxPoint x="379" y="1195" />
+              <mxPoint x="379" y="1236" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-62" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4. 创建合同" vertex="1">
+          <mxGeometry relative="1" x="-0.4765" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-63" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="1135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-64" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. 根据三要素获取用户id，认证方式，开户时间" vertex="1">
+          <mxGeometry relative="1" x="-0.4647" y="2" as="geometry">
+            <mxPoint x="141" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-65" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="1286" />
+              <mxPoint x="325" y="1306" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-66" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. 发送短链接请求" vertex="1">
+          <mxGeometry relative="1" x="-0.1989" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-67" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" target="8bUN5_SP1lWivCpNgLxp-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="467" y="1369" />
+              <mxPoint x="-86" y="1369" />
+            </Array>
+            <mxPoint x="440" y="1304" as="sourcePoint" />
+            <mxPoint x="-64" y="1377" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-68" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="9. 短信通知盖章" vertex="1">
+          <mxGeometry relative="1" x="0.1869" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-69" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-116" y="1392" />
+              <mxPoint x="502" y="1392" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-70" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="9.2. 盖章完成" vertex="1">
+          <mxGeometry relative="1" x="-0.2834" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-71" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="8bUN5_SP1lWivCpNgLxp-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="1336" />
+              <mxPoint x="330" y="1317" />
+            </Array>
+            <mxPoint x="464" y="1359" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-72" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-71" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7. 委托方盖章完成" vertex="1">
+          <mxGeometry relative="1" x="0.3817" y="-4" as="geometry">
+            <mxPoint x="28" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-73" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.675;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="8bUN5_SP1lWivCpNgLxp-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="106" y="1164" />
+            </Array>
+            <mxPoint x="307" y="1195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-74" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3.2 获取用户id" vertex="1">
+          <mxGeometry relative="1" x="0.2365" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-75" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-76" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-75" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="提前准备：在安心签上开户" vertex="1">
+          <mxGeometry relative="1" x="-0.4078" y="-2" as="geometry">
+            <mxPoint x="40" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-77" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.925;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;" target="8bUN5_SP1lWivCpNgLxp-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="1251" />
+              <mxPoint x="406" y="1247" />
+              <mxPoint x="212" y="1247" />
+              <mxPoint x="212" y="1223" />
+              <mxPoint x="136" y="1223" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-78" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-77" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4.2 获取合同id" vertex="1">
+          <mxGeometry relative="1" x="0.4183" y="-2" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-79" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-80" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-79" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="10.2 获取盖完章的合同" vertex="1">
+          <mxGeometry relative="1" x="-0.0877" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-81" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-82" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="10. 获取合同请求" vertex="1">
+          <mxGeometry relative="1" x="0.0684" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-83" parent="1" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="律所" vertex="1">
+          <mxGeometry height="508" width="153" x="-128" y="1656" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-84" parent="8bUN5_SP1lWivCpNgLxp-83" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="律师" vertex="1">
+          <mxGeometry height="60" width="30" x="23" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-85" parent="8bUN5_SP1lWivCpNgLxp-83" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="盖章老师" vertex="1">
+          <mxGeometry height="60" width="30" x="26" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-86" parent="8bUN5_SP1lWivCpNgLxp-83" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="20" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-87" parent="1" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="IMS系统" vertex="1">
+          <mxGeometry height="508" width="383" x="25" y="1656" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-88" parent="8bUN5_SP1lWivCpNgLxp-87" style="rounded=1;whiteSpace=wrap;html=1;" value="委托合同" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-89" parent="8bUN5_SP1lWivCpNgLxp-87" style="rounded=1;whiteSpace=wrap;html=1;" value="盖章" vertex="1">
+          <mxGeometry height="60" width="120" x="14" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-90" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-91" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-90" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1. 创建所函" vertex="1">
+          <mxGeometry relative="1" x="-0.3799" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-92" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="8bUN5_SP1lWivCpNgLxp-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-93" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-92" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. 待盖章文书" vertex="1">
+          <mxGeometry relative="1" x="-0.4612" y="-1" as="geometry">
+            <mxPoint x="22" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-94" parent="1" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="CFCA" vertex="1">
+          <mxGeometry height="508" width="213" x="408" y="1656" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-95" parent="8bUN5_SP1lWivCpNgLxp-94" style="rounded=1;whiteSpace=wrap;html=1;" value="3203&amp;nbsp;上传合同签署" vertex="1">
+          <mxGeometry height="60" width="120" x="47.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-96" parent="8bUN5_SP1lWivCpNgLxp-94" style="rounded=1;whiteSpace=wrap;html=1;" value="3008&amp;nbsp;用户三要素信息查询" vertex="1">
+          <mxGeometry height="57" width="120" x="47.5" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-97" parent="8bUN5_SP1lWivCpNgLxp-94" style="rounded=1;whiteSpace=wrap;html=1;" value="3912&amp;nbsp;单一合同H5签署" vertex="1">
+          <mxGeometry height="60" width="120" x="43" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-98" parent="8bUN5_SP1lWivCpNgLxp-94" style="rounded=1;whiteSpace=wrap;html=1;" value="企业开户" vertex="1">
+          <mxGeometry height="40" width="120" x="47" y="27" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-99" parent="8bUN5_SP1lWivCpNgLxp-94" style="rounded=1;whiteSpace=wrap;html=1;" value="downloading 合同下载" vertex="1">
+          <mxGeometry height="60" width="120" x="47" y="389" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-100" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="129" y="1886" />
+              <mxPoint x="393" y="1886" />
+              <mxPoint x="393" y="1866" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-101" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-100" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4. 创建合同" vertex="1">
+          <mxGeometry relative="1" x="-0.4765" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-102" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-96">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="99" y="1841" />
+              <mxPoint x="346" y="1841" />
+              <mxPoint x="346" y="1766" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-103" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-102" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. 根据三要素获取用户id，认证方式，开户时间" vertex="1">
+          <mxGeometry relative="1" x="-0.4647" y="2" as="geometry">
+            <mxPoint x="74" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-104" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="339" y="1948" />
+              <mxPoint x="339" y="1936" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-105" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-104" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. 发送短链接请求" vertex="1">
+          <mxGeometry relative="1" x="-0.1989" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-106" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" target="8bUN5_SP1lWivCpNgLxp-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="481" y="1999" />
+              <mxPoint x="-72" y="1999" />
+            </Array>
+            <mxPoint x="454" y="1934" as="sourcePoint" />
+            <mxPoint x="-50" y="2007" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-107" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-106" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6. 短信通知盖章" vertex="1">
+          <mxGeometry relative="1" x="0.1869" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-108" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-102" y="2022" />
+              <mxPoint x="511" y="2022" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-109" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-108" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7. 盖章" vertex="1">
+          <mxGeometry relative="1" x="-0.2834" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-110" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="8bUN5_SP1lWivCpNgLxp-89">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="213" y="1966" />
+              <mxPoint x="213" y="1963" />
+            </Array>
+            <mxPoint x="478" y="1989" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-111" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-110" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8. 盖章完成" vertex="1">
+          <mxGeometry relative="1" x="0.3817" y="-4" as="geometry">
+            <mxPoint x="28" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-112" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.675;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" target="8bUN5_SP1lWivCpNgLxp-89">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="382" y="1781" />
+              <mxPoint x="382" y="1868" />
+              <mxPoint x="120" y="1868" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-113" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-112" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3.2 获取用户id" vertex="1">
+          <mxGeometry relative="1" x="0.2365" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-114" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-115" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-114" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="提前准备：在安心签上开户" vertex="1">
+          <mxGeometry relative="1" x="-0.4078" y="-2" as="geometry">
+            <mxPoint x="40" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-116" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-89">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="1881" />
+              <mxPoint x="420" y="1904" />
+              <mxPoint x="159" y="1904" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-117" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-116" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4.2 获取合同id" vertex="1">
+          <mxGeometry relative="1" x="0.4183" y="-2" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-118" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-119" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-118" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8.2 获取盖完章的合同" vertex="1">
+          <mxGeometry relative="1" x="-0.0877" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-120" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-121" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-120" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8. 获取合同请求" vertex="1">
+          <mxGeometry relative="1" x="0.0684" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-126" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="8bUN5_SP1lWivCpNgLxp-129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="951" />
+            </Array>
+            <mxPoint x="632" y="949" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-127" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-126" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2.1 告知客户注册安心签" vertex="1">
+          <mxGeometry relative="1" x="0.155" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-130" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-128">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="658" y="984" />
+              <mxPoint x="605" y="984" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-131" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-130" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2.2 注册开户" vertex="1">
+          <mxGeometry relative="1" x="0.2291" y="1" as="geometry">
+            <mxPoint x="9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-133" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-134" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-133" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2.3 绑定平台" vertex="1">
+          <mxGeometry relative="1" x="0.5113" y="1" as="geometry">
+            <mxPoint x="13" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-135" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="8bUN5_SP1lWivCpNgLxp-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-136" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-135" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6. 短信通知盖章" vertex="1">
+          <mxGeometry relative="1" x="-0.7506" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-137" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-138" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-137" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6.2 盖章完成" vertex="1">
+          <mxGeometry relative="1" x="0.8199" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-140" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.983;exitY=0.904;exitDx=0;exitDy=0;entryX=0.045;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="8bUN5_SP1lWivCpNgLxp-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="168" y="1336" />
+              <mxPoint x="168" y="1345" />
+              <mxPoint x="216" y="1345" />
+              <mxPoint x="216" y="1351" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-141" connectable="0" parent="8bUN5_SP1lWivCpNgLxp-140" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8. 发送短链接请求" vertex="1">
+          <mxGeometry relative="1" x="-0.4615" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
