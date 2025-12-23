@@ -252,7 +252,7 @@
           <mxGeometry height="730" width="213" x="394" y="802" as="geometry" />
         </mxCell>
         <mxCell id="8bUN5_SP1lWivCpNgLxp-56" parent="8bUN5_SP1lWivCpNgLxp-55" style="rounded=1;whiteSpace=wrap;html=1;" value="3203&amp;nbsp;上传合同签署" vertex="1">
-          <mxGeometry height="60" width="120" x="47.5" y="404" as="geometry" />
+          <mxGeometry height="56" width="120" x="47.5" y="404" as="geometry" />
         </mxCell>
         <mxCell id="8bUN5_SP1lWivCpNgLxp-57" parent="8bUN5_SP1lWivCpNgLxp-55" style="rounded=1;whiteSpace=wrap;html=1;" value="3008&amp;nbsp;用户三要素信息查询" vertex="1">
           <mxGeometry height="57" width="120" x="43" y="319" as="geometry" />
@@ -276,8 +276,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="115" y="1195" />
-              <mxPoint x="379" y="1195" />
-              <mxPoint x="379" y="1236" />
+              <mxPoint x="355" y="1195" />
+              <mxPoint x="355" y="1234" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -374,14 +374,11 @@
             <mxPoint x="40" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8bUN5_SP1lWivCpNgLxp-77" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.925;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;" target="8bUN5_SP1lWivCpNgLxp-50">
+        <mxCell id="8bUN5_SP1lWivCpNgLxp-77" edge="1" parent="1" source="8bUN5_SP1lWivCpNgLxp-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="8bUN5_SP1lWivCpNgLxp-50">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="406" y="1251" />
-              <mxPoint x="406" y="1247" />
-              <mxPoint x="212" y="1247" />
-              <mxPoint x="212" y="1223" />
-              <mxPoint x="136" y="1223" />
+              <mxPoint x="355" y="1262" />
+              <mxPoint x="355" y="1254" />
             </Array>
           </mxGeometry>
         </mxCell>
