@@ -1012,7 +1012,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="律所盖章关键字/坐标选择" vertex="1">
+        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="签署" vertex="1">
           <mxGeometry height="44" width="83" x="51" y="409" as="geometry" />
         </mxCell>
       </root>
