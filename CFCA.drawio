@@ -962,6 +962,31 @@
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-87" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;" value="腾讯签" vertex="1">
           <mxGeometry height="30" width="60" x="-389" y="497" as="geometry" />
         </mxCell>
+        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-88" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" target="1FGbCEUtPYH7FBdhD4JJ-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="497" y="628" />
+              <mxPoint x="497" y="44" />
+              <mxPoint x="-83" y="44" />
+              <mxPoint x="-83" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-89" connectable="0" parent="1FGbCEUtPYH7FBdhD4JJ-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="盖章完成" vertex="1">
+          <mxGeometry relative="1" x="-0.2468" y="1" as="geometry">
+            <mxPoint x="-59" y="366" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-90" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" target="1FGbCEUtPYH7FBdhD4JJ-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="497" y="628" />
+              <mxPoint x="497" y="44" />
+              <mxPoint x="-84" y="44" />
+              <mxPoint x="-84" y="211" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
