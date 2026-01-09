@@ -892,8 +892,8 @@
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-61" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1FGbCEUtPYH7FBdhD4JJ-59">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="253" y="387" />
-              <mxPoint x="357" y="387" />
+              <mxPoint x="253" y="389" />
+              <mxPoint x="385" y="389" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -917,14 +917,13 @@
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-64" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1FGbCEUtPYH7FBdhD4JJ-62">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="354" y="456" />
-              <mxPoint x="354" y="476" />
+              <mxPoint x="385" y="476" />
               <mxPoint x="253" y="476" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="签署短信" vertex="1">
-          <mxGeometry height="47" width="99" x="307" y="408.5" as="geometry" />
+          <mxGeometry height="47" width="99" x="335" y="416" as="geometry" />
         </mxCell>
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="小程序签署" vertex="1">
           <mxGeometry height="39" width="120" x="193" y="497" as="geometry" />
