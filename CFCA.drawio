@@ -817,17 +817,25 @@
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-17" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="1FGbCEUtPYH7FBdhD4JJ-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-18" connectable="0" parent="1FGbCEUtPYH7FBdhD4JJ-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1. 在待盖章列表中" vertex="1">
+        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-18" connectable="0" parent="1FGbCEUtPYH7FBdhD4JJ-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="在待盖章列表中" vertex="1">
           <mxGeometry relative="1" x="-0.471" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-83" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="1FGbCEUtPYH7FBdhD4JJ-62">
+        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-83" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="1FGbCEUtPYH7FBdhD4JJ-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-84" connectable="0" parent="1FGbCEUtPYH7FBdhD4JJ-83" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="签署完成" vertex="1">
+        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-84" connectable="0" parent="1FGbCEUtPYH7FBdhD4JJ-83" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="签署方式2：在小程序签署完成" vertex="1">
           <mxGeometry relative="1" x="-0.5482" y="-4" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-58" y="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-94" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="1FGbCEUtPYH7FBdhD4JJ-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-95" connectable="0" parent="1FGbCEUtPYH7FBdhD4JJ-94" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="签署方式1：在ims系统完成" vertex="1">
+          <mxGeometry relative="1" x="-0.1992" y="-1" as="geometry">
+            <mxPoint x="46" y="27" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-19" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="盖章人" vertex="1">
@@ -874,36 +882,49 @@
           <mxGeometry height="40" width="120" x="193" y="258" as="geometry" />
         </mxCell>
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-60" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1FGbCEUtPYH7FBdhD4JJ-58">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="253" y="388" />
+              <mxPoint x="220" y="388" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-61" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1FGbCEUtPYH7FBdhD4JJ-59">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="253" y="387" />
-              <mxPoint x="386" y="387" />
-              <mxPoint x="386" y="408" />
+              <mxPoint x="357" y="387" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-93" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="1FGbCEUtPYH7FBdhD4JJ-91">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="调用&lt;a href=&quot;https://cloud.tencent.com/document/api/1323/70360&quot; style=&quot;color: rgb(0, 164, 255); border: none; text-decoration-line: none; box-sizing: border-box; list-style: inherit; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Helvetica&quot;&gt;CreateFlowByFiles&lt;/font&gt;&lt;/a&gt;接口创建签署流程" vertex="1">
           <mxGeometry height="46" width="120" x="193" y="321" as="geometry" />
         </mxCell>
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-63" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1FGbCEUtPYH7FBdhD4JJ-62">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="477" />
+              <mxPoint x="253" y="477" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="调用接口&lt;a href=&quot;https://cloud.tencent.com/document/api/1323/70359&quot; style=&quot;color: rgb(0, 164, 255); border: none; text-decoration-line: none; box-sizing: border-box; list-style: inherit; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Verdana&quot;&gt;CreateSchemeUrl&lt;/font&gt;&lt;/a&gt;获取签署流程链接" vertex="1">
-          <mxGeometry height="48" width="144" x="100" y="407" as="geometry" />
+          <mxGeometry height="48" width="144" x="148" y="408" as="geometry" />
         </mxCell>
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-64" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1FGbCEUtPYH7FBdhD4JJ-62">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="387" y="476" />
+              <mxPoint x="354" y="456" />
+              <mxPoint x="354" y="476" />
               <mxPoint x="253" y="476" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="签署短信" vertex="1">
-          <mxGeometry height="47" width="139" x="317" y="408" as="geometry" />
+          <mxGeometry height="47" width="99" x="307" y="408.5" as="geometry" />
         </mxCell>
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="小程序签署" vertex="1">
           <mxGeometry height="39" width="120" x="193" y="497" as="geometry" />
@@ -915,9 +936,6 @@
           <mxGeometry relative="1" x="0.286" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-66" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="1FGbCEUtPYH7FBdhD4JJ-19">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-74" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="1FGbCEUtPYH7FBdhD4JJ-73">
           <mxGeometry relative="1" as="geometry" />
@@ -957,7 +975,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-85" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="352" width="339" x="-389" y="497" as="geometry" />
+          <mxGeometry height="352" width="339" x="-395" y="481" as="geometry" />
         </mxCell>
         <mxCell id="1FGbCEUtPYH7FBdhD4JJ-87" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;" value="腾讯签" vertex="1">
           <mxGeometry height="30" width="60" x="-389" y="497" as="geometry" />
@@ -986,6 +1004,17 @@
               <mxPoint x="-84" y="211" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-96" edge="1" parent="1" source="1FGbCEUtPYH7FBdhD4JJ-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1FGbCEUtPYH7FBdhD4JJ-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="93" y="477" />
+              <mxPoint x="253" y="477" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FGbCEUtPYH7FBdhD4JJ-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="律所盖章关键字/坐标选择" vertex="1">
+          <mxGeometry height="44" width="83" x="51" y="409" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
