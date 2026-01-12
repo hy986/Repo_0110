@@ -1111,7 +1111,7 @@
         <mxCell id="AgOZ9-VuMDPhiuMYJEl7-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="律所签署（IMS / 小程序）" vertex="1">
           <mxGeometry height="35" width="120" x="608" y="186" as="geometry" />
         </mxCell>
-        <mxCell id="AgOZ9-VuMDPhiuMYJEl7-17" parent="1" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#e1d5e7;strokeColor=#9673a6;" value="客户先签署" vertex="1">
+        <mxCell id="AgOZ9-VuMDPhiuMYJEl7-17" parent="1" style="swimlane;whiteSpace=wrap;html=1;container=0;fillColor=#f8cecc;strokeColor=#b85450;" value="客户先签署" vertex="1">
           <mxGeometry height="237" width="200" x="581" y="45" as="geometry" />
         </mxCell>
         <mxCell id="AgOZ9-VuMDPhiuMYJEl7-12" parent="AgOZ9-VuMDPhiuMYJEl7-17" style="rounded=1;whiteSpace=wrap;html=1;" value="签署完成" vertex="1">
