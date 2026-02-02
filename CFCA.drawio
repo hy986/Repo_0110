@@ -1449,7 +1449,7 @@
         <mxCell id="VgUX9Q41oXFY54DzvlcV-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="06004&amp;nbsp;运营商三要素认证（姓名、身份证号、手机号）" vertex="1">
           <mxGeometry height="49" width="132" x="896" y="455" as="geometry" />
         </mxCell>
-        <mxCell id="VgUX9Q41oXFY54DzvlcV-55" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="尊敬的{0}，身份验证已通过。" vertex="1">
+        <mxCell id="VgUX9Q41oXFY54DzvlcV-55" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="尊敬的{0}，您的身份验证已通过。" vertex="1">
           <mxGeometry height="161" width="260" x="1183" y="337" as="geometry" />
         </mxCell>
         <mxCell id="VgUX9Q41oXFY54DzvlcV-56" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" target="VgUX9Q41oXFY54DzvlcV-55" value="">
