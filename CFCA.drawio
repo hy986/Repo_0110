@@ -1222,7 +1222,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ybn5u7TpHrS9E6EWgQB9" name="第 3 页">
-    <mxGraphModel dx="1418" dy="780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1876" dy="814" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1448,6 +1448,62 @@
         </mxCell>
         <mxCell id="VgUX9Q41oXFY54DzvlcV-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="06004&amp;nbsp;运营商三要素认证（姓名、身份证号、手机号）" vertex="1">
           <mxGeometry height="49" width="132" x="896" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="VgUX9Q41oXFY54DzvlcV-55" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="尊敬的{0}，身份验证已通过。" vertex="1">
+          <mxGeometry height="161" width="260" x="1183" y="337" as="geometry" />
+        </mxCell>
+        <mxCell id="VgUX9Q41oXFY54DzvlcV-56" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" target="VgUX9Q41oXFY54DzvlcV-55" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1095" y="524" />
+              <mxPoint x="1106" y="444" />
+            </Array>
+            <mxPoint x="964" y="517" as="sourcePoint" />
+            <mxPoint x="1156" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgUX9Q41oXFY54DzvlcV-57" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" target="VgUX9Q41oXFY54DzvlcV-58" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1117" y="678" />
+            </Array>
+            <mxPoint x="993" y="645" as="sourcePoint" />
+            <mxPoint x="1167" y="678" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgUX9Q41oXFY54DzvlcV-58" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font&gt;尊敬的{0}，您提交的身份验证信息未通过审核，请核对后重新提交。&lt;/font&gt;" vertex="1">
+          <mxGeometry height="162" width="299" x="1194" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="VgUX9Q41oXFY54DzvlcV-59" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" target="VgUX9Q41oXFY54DzvlcV-60" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="985" y="892" />
+            </Array>
+            <mxPoint x="393" y="838" as="sourcePoint" />
+            <mxPoint x="1035" y="892" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgUX9Q41oXFY54DzvlcV-60" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="尊敬的{0}，您的盖章申请已完成。感谢您的配合。" vertex="1">
+          <mxGeometry height="174" width="313" x="1062" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="VgUX9Q41oXFY54DzvlcV-61" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" target="VgUX9Q41oXFY54DzvlcV-62" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1184" y="254" />
+            </Array>
+            <mxPoint x="592" y="200" as="sourcePoint" />
+            <mxPoint x="1234" y="254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgUX9Q41oXFY54DzvlcV-62" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="尊敬的{0}，合同双方盖章已全部完成。" vertex="1">
+          <mxGeometry height="174" width="313" x="1261" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="VgUX9Q41oXFY54DzvlcV-63" edge="1" parent="1" style="curved=1;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" target="VgUX9Q41oXFY54DzvlcV-62" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="378" y="366" as="sourcePoint" />
+            <mxPoint x="1254" y="249" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
